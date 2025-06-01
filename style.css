@@ -1,44 +1,33 @@
+/* ---------- TAGS GLOBAIS ---------- */
 * {
     padding: 0;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    z-index: 1;
 }
 
-.frontIndex {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+body {
     background: linear-gradient(to bottom right, #EFEFEF, #141414, #9E9E9E, #1E1E1E);
-    height: 100vh;
-    gap: 50px;
-}
-
-.headerIndex {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.headerIndex img {
-    width: 200px;
+    
 }
 
 .menu {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     align-items: center;
 }
-
 #buttonMenu {
     text-decoration: none;
     padding: 8px;
-    border: 1px solid black;
-    border-radius: 50px;
+    /* border: 1px solid black; */
+    /* border-radius: 50px; */
     background-color: white;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     user-select: none;
+    text-transform: uppercase;
 }
 
 #buttonMenu:hover {
@@ -51,3 +40,138 @@
     text-decoration: none;
     color: black;
 }
+.siteBox{
+    background-color: #9E9E9E;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 20px;
+    width: 55%;
+}
+
+/* ---------- INDEX ----------*/
+.frontIndex {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+}
+.contentIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocoBalela{
+    color: white;
+}
+.blocoBalela h1 {
+    text-align: center;
+}
+.blocoBalela p{
+    text-align: center;
+}
+/*---------- SOBRE ----------  */
+.frontSobre{
+    height: 165vh;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.h1ABt{
+    text-align: center;
+    color: white;
+}
+.aboutFO{
+    text-align: center;
+    color: white;
+    display: flex;
+
+}
+.BalelaAbt a{
+    /* text-decoration: none; */
+    color: white;
+}
+.wikiInspoAbt{
+    padding: 10px;
+    border-left: 5px solid white;
+    /* border-bottom: 5px solid gray; */
+    gap: 10px;
+    margin-left: 10px;
+}
+.wikiInspoAbt img{
+    width: 200px;
+    /* height: 100px; */
+}
+.wikiInspoAbt h1{
+    font-size: 20px;
+    
+}
+.wikiInspoAbt a {
+    text-decoration: none;
+    
+}
+/* ---------- ALBUS ---------- */
+.frontAlb{
+   height: 180vh;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.tiAlb{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.tiAlbsCard{
+    font-size: 20px;
+}
+.albunsArea{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    
+}
+.albunsArea a{
+    text-decoration: none;
+    color: white;
+}
+.albunsEstudios{
+    gap: 10px;
+    display: flex;
+    text-align: center;
+}
+.albunsArea img {
+    cursor: pointer;
+    width: 150px;
+    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease; 
+}
+
+.albunsArea img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+/* --------- CHANNEL ORANGE -------- */
+.frontChOr{
+   height: 180vh;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+

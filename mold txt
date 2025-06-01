@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbuns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frontChOr">
+        <div class="header">
+            <div></div>
+            <div><img src="img/logo.webp" alt=""></div>
+            <div></div>
+        </div>
+        <div class="contentIndex" >
+            <!-- <img class="backgroundImage" src="img/wallpaperIndex.jpg" alt=""> -->
+
+            <div class="menu">
+                <div id="buttonMenu"><a href="index.html">Início</a></div>
+                <div id="buttonMenu"><a href="sobre.html">Sobre</a></div>
+                <div id="buttonMenu"><a href="albuns.html">Álbuns</a></div>
+                <div id="buttonMenu"><a href="premios.html">Prêmios</a></div>
+                <div id="buttonMenu"><a href="galFts.html">Galeria Fotos</a></div>
+                <div id="buttonMenu"><a href="pgCt.html">Página Contato</a></div>
+            </div>
+            <br><br>
+        <div class="contentIndex">
+            <div class="siteBox"></div>
+        </div>
+    </div>
+</body>
