@@ -5,10 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prêmios</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        }
+
+        h2 {
+        margin-bottom: 10px;
+        color: white;
+        text-align: center;
+        }
+
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: white;
+        }
+
+        th, td {
+        border: 1px solid #aaa;
+        padding: 8px;
+        text-align: left;
+        vertical-align: top;
+        }
+
+        th {
+        background-color: #f2f2f2;
+        }
+
+        .venceu {
+        background-color: #d0f0c0; /* verde claro */
+        }
+
+        .indicado {
+        background-color: #fdd; /* vermelho claro */
+        }
+
+        .indicado-amarelo {
+        background-color: #ffffcc; /* amarelo claro */
+        }
+
+        a {
+        color: #0645AD;
+        text-decoration: none;
+        }
+
+        a:hover {
+        text-decoration: underline;
+        }
+
+        em {
+        font-style: italic;
+        }
+  </style>
 </head>
 <body>
     <div class="frontIndex">
-        <div class="headerIndex">
+        <div class="header">
             <div></div>
             <div><img src="img/logo.webp" alt=""></div>
             <div></div>
@@ -23,6 +77,66 @@
                 <div id="buttonMenu"><a href="premios.html">Prêmios</a></div>
                 <div id="buttonMenu"><a href="galFts.html">Galeria Fotos</a></div>
                 <div id="buttonMenu"><a href="pgCt.html">Página Contato</a></div>
+            </div>
+            <br><br>
+            <div class="siteBox">
+
+                <h2>Prêmios e indicações</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Ano</th>
+                        <th>Prêmio</th>
+                        <th>Categoria</th>
+                        <th>Trabalho</th>
+                        <th>Resultado</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td rowspan="3">2011</td>
+                        <td>GQ</td>
+                        <td>Novato do Ano</td>
+                        <td>Ele Mesmo</td>
+                        <td class="venceu">Venceu</td>
+                    </tr>
+                    <tr>
+                        <td>BET Hip Hop Awards</td>
+                        <td>Melhor Mixtape</td>
+                        <td><em>Nostalgia, Ultra</em></td>
+                        <td class="indicado">Indicado</td>
+                    </tr>
+                    <tr>
+                        <td>Soul Train Music Awards</td>
+                        <td>Melhor Novo Artista</td>
+                        <td>Ele Mesmo</td>
+                        <td class="indicado">Indicado</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">2012</td>
+                        <td>Grammys</td>
+                        <td>Melhor Álbum Contemporâneo Urbano</td>
+                        <td><em>Channel Orange</em></td>
+                        <td class="venceu">Venceu</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"> Video Music Awards</td>
+                        <td>Melhor Direção</td>
+                        <td></td>
+                        <td class="indicado-amarelo">Indicado</td>
+                    </tr>
+                    <tr>
+                        <td>Melhor Vídeo Masculino</td>
+                        <td><em>"Swim Good"</em></td>
+                        <td class="indicado-amarelo">Indicado</td>
+                    </tr>
+                    <tr>
+                        <td>Melhor Novo Artista</td>
+                        <td></td>
+                        <td class="indicado-amarelo">Indicado</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <div class="footerIndex" ></div>

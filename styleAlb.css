@@ -16,6 +16,11 @@
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
     background-color: #f0f0f0;
 }
+.menuAlbuns a{
+    text-decoration: none;
+    color: black;
+
+}
 .menuAlbunsArea{
     display: flex;
     flex-direction: column;
@@ -41,7 +46,7 @@
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     padding: 40px;
-    width: 55%;
+    width: 60%;
     /* display: grid;
     grid-template-columns: auto auto auto; 
     gap: 10px; 
@@ -53,6 +58,7 @@
     display: flex;
     flex-direction: row;
     gap: 5px;
+    /* flex-wrap: wrap; */
 }
 /* #sptAreaAlb{
     display: flex;
@@ -60,6 +66,7 @@
     align-items: center;
 } */
 .wikiAlbum{
+    text-align: center;
     padding: 10px;
     
     /* border-bottom: 5px solid gray; */
@@ -67,12 +74,19 @@
     margin-left: 10px;
 }
 .wikiAlbum img{
-    width: 200px;
+    width: 130px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 .wikiAlbum h1{
     color: white;
-    font-size: 20;
+    font-size: 20px;
+    text-align: center;
 }
+.wikiAlbum tr,td,table{
+    font-size: 15px;
+    color: white;
+}
+
 .balelaAlbum{
     padding: 10px;
     border-left: 5px solid white;
@@ -83,4 +97,13 @@
 }
 .balelaAlbum h1{
     font-size: 20px;
+    /* margin-top: -100px; */
+}
+.balelaAlbum p{
+    font-size: 13px;
+    text-align: left;
+}
+#sptAreaAlb{
+    color: white;
+    text-align: center;
 }

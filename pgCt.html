@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Página de Contato</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #insiramsg{
+            padding-left: 3px;
+        }
+    </style>
 </head>
 <body>
     <div class="frontIndex">
-        <div class="headerIndex">
+        <div class="header">
             <div></div>
             <div><img src="img/logo.webp" alt=""></div>
             <div></div>
@@ -24,8 +29,32 @@
                 <div id="buttonMenu"><a href="galFts.html">Galeria Fotos</a></div>
                 <div id="buttonMenu"><a href="pgCt.html">Página Contato</a></div>
             </div>
+            <br><br>
+        <div class="contentIndex">
+            <div class="siteBoxPgCtt">
+                <div class="partEsq">
+                    <h1>Não seja tímido</h1>
+                    <p>Fique a vontade para entrar em contato comigo. Estou sempre aberto para discutir novos projetos, ideias criativas ou oportunidades de fazer parte de suas visões</p>
+                    <img src="" alt="" id="mensagem">
+                    <p>Envie-me uma mensagem <br> ryanclayton999@gmail.com</p>
+                    <img src="" alt="" id="cell">
+                    <p>Se preferir, me ligue <br> 4002-8922</p>
+                </div>
+                <div class="partDir">
+                    <h1></h1>
+                    <br><br>
+                    <label for="">Insira seu nome</label>
+                    <input type="text" id="insiramsg">
+                    <br><br>
+                    <label for="">Insira um email válido</label> 
+                    <input type="text" id="insiramsg">
+                    <br><br>
+                    <label for="">Insira sua mensagem</label>
+                    <textarea name="insiramsg" id="insiramsg" cols="70" rows="10"></textarea> <br><br><br>
+
+                    <button type="submit" id="buttonMenu">ENVIAR</button>
+                </div>
+            </div>
         </div>
-        <div class="footerIndex" ></div>
     </div>
 </body>
-</html>
